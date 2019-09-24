@@ -14,4 +14,9 @@ public class PrimeFactorsTest {
     public void of_1isNone() {
         assertThat(PrimeFactors.of(1), CoreMatchers.<List<Integer>>is(ImmutableList.<Integer>of()));
     }
+
+    @Test
+    public void of_2is2() {
+        assertThat(PrimeFactors.of(2), CoreMatchers.<List<Integer>>is(ImmutableList.<Integer>of(2)));
+    }
 }
