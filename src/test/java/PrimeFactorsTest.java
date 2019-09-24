@@ -24,4 +24,9 @@ public class PrimeFactorsTest {
     public void of_3is3() {
         assertThat(PrimeFactors.of(3), CoreMatchers.<List<Integer>>is(ImmutableList.<Integer>of(3)));
     }
+
+    @Test
+    public void of_3is2_2() {
+        assertThat(PrimeFactors.of(4), CoreMatchers.<List<Integer>>is(ImmutableList.<Integer>of(2,2)));
+    }
 }
