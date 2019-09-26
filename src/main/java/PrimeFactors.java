@@ -8,7 +8,7 @@ public class PrimeFactors {
     public static List<Integer> of(int n) {
         List<Integer> factors = Lists.newArrayList();
         if (n > 1) {
-            if (n % 2 == 0) {
+            while (n % 2 == 0) {
                 factors.add(2);
                 n /= 2;
             }
