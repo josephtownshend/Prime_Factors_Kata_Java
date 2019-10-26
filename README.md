@@ -6,7 +6,8 @@
 |_|                                                 
 ```
 
-Attempt of the prime factors kata in Java.
+Follow along of the prime factors kata in Java.
+https://www.youtube.com/watch?v=3WWv3QBhr9k&t=98s
 
 
 ### Installation
